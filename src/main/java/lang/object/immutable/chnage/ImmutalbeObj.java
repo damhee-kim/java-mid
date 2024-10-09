@@ -1,4 +1,4 @@
-package lang.object.chnage;
+package lang.object.immutable.chnage;
 
 public class ImmutalbeObj {
 
