@@ -1,4 +1,4 @@
-package lang.object.equals;
+package lang.string.equals;
 
 public class EqualsMainV1 {
 
