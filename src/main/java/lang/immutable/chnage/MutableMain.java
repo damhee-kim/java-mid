@@ -1,4 +1,4 @@
-package lang.object.immutable.chnage;
+package lang.immutable.chnage;
 
 public class MutableMain {
 

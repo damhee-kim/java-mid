@@ -1,4 +1,4 @@
-package lang.object.immutable.test;
+package lang.immutable.test;
 
 public class MyDateMain {
 

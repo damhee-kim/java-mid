@@ -1,6 +1,4 @@
-package lang.object.immutable.test;
-
-import lang.object.immutable.chnage.ImmutalbeObj;
+package lang.immutable.test;
 
 public class ImmutableMyDate {
 

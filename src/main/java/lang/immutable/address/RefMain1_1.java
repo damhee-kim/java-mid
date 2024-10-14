@@ -1,6 +1,4 @@
-package lang.object.immutable.address;
-
-import org.w3c.dom.ls.LSOutput;
+package lang.immutable.address;
 
 public class RefMain1_1 {
     public static void main(String[] args) {

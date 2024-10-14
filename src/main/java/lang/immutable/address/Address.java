@@ -1,15 +1,19 @@
-package lang.object.immutable.address;
+package lang.immutable.address;
 
-public class ImmutableAddress {
+public class Address {
 
-    public final String value;
+    public String value;
 
-    public ImmutableAddress(String value) {
+    public Address(String value) {
         this.value = value;
     }
 
     public String getValue() {
         return value;
+    }
+
+    public void setValue(String value) {
+        this.value = value;
     }
 
     @Override
