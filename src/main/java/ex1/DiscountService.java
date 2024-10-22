@@ -3,7 +3,7 @@ package ex1;
 import ex2.Grade;
 
 public class DiscountService {
-    public int discount(Grade grade, int price) {
+    public int discount(String grade, int price) {
         int discountPercent = 0;
 
         if(grade.equals(StringGrade.BASIC)) {

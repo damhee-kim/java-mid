@@ -1,16 +1,16 @@
-package ex2;
+package ref;
 
-import ex2.DiscountService;
+import ex2.Grade;
 
-public class StringGradeEx2 {
+public class StringGradeRefMain {
 
     public static void main(String[] args) {
         int price = 10000;
 
-        DiscountService ds = new DiscountService();
-        int basic = ds.discount(Grade.BASIC, price);
-        int gold = ds.discount(Grade.GOLD, price);
-        int diamond = ds.discount(Grade.DIAMOND, price);
+        RefDiscountService ds = new RefDiscountService();
+        int basic = ds.discount(ClassGrade.BASIC, price);
+        int gold = ds.discount(ClassGrade.GOLD, price);
+        int diamond = ds.discount(ClassGrade.DIAMOND, price);
 
         /*
          * 문자열 상수를 이용한 값 호출 방법에 대해 공부
