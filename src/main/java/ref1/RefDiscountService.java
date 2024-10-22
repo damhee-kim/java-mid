@@ -1,4 +1,4 @@
-package ref;
+package ref1;
 
 
 public class RefDiscountService {
