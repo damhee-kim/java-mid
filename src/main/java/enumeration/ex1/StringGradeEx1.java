@@ -1,4 +1,4 @@
-package ex1;
+package enumeration.ex1;
 
 public class StringGradeEx1 {
 

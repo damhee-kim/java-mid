@@ -1,4 +1,4 @@
-package ref3;
+package enumeration.ref3;
 
 public class StringGradeRefMainFinal {
 

@@ -1,4 +1,4 @@
-package ref1;
+package enumeration.ref1;
 
 public class ClassGrade {
     public static final ClassGrade BASIC = new ClassGrade(10);

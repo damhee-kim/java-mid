@@ -1,4 +1,4 @@
-package ex2;
+package enumeration.ex2;
 
 public enum Grade {
     /*

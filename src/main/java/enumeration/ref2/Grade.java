@@ -1,4 +1,4 @@
-package ref3;
+package enumeration.ref2;
 
 public enum Grade {
     /*
@@ -16,13 +16,5 @@ public enum Grade {
 
     public int getDiscountPercent() {
         return discountPercent;
-    }
-
-    /*
-     * [추가]
-     * 이 부분을 통해 Grade 는 스스로 할일율을 계산할 수 있게 된 것을 알 수 있다.
-     */
-    public int discount(int price) {
-        return price * discountPercent / 100;
     }
 }

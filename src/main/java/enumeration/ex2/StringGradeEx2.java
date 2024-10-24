@@ -1,14 +1,11 @@
-package ref2;
+package enumeration.ex2;
 
-import ref2.Grade;
-import ref2.RefDiscountService;
-
-public class StringGradeRefMain {
+public class StringGradeEx2 {
 
     public static void main(String[] args) {
         int price = 10000;
 
-        RefDiscountService ds = new RefDiscountService();
+        DiscountService ds = new DiscountService();
         int basic = ds.discount(Grade.BASIC, price);
         int gold = ds.discount(Grade.GOLD, price);
         int diamond = ds.discount(Grade.DIAMOND, price);

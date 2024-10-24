@@ -1,4 +1,4 @@
-package ref3;
+package enumeration.ref3;
 
 public class RefDiscountService {
     public int discount(Grade grade, int price) {

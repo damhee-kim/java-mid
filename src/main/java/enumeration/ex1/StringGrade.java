@@ -1,6 +1,4 @@
-package ex1;
-
-import ex2.Grade;
+package enumeration.ex1;
 
 public class StringGrade {
 
